@@ -1,0 +1,27 @@
+# Vertex'ler
+v -0.5 -0.5 -0.5
+v  0.5 -0.5 -0.5
+v  0.5  0.5 -0.5
+v -0.5  0.5 -0.5
+v -0.5 -0.5  0.5
+v  0.5 -0.5  0.5
+v  0.5  0.5  0.5
+v -0.5  0.5  0.5
+
+# Renkler
+c 1.0 1.0 1.0  # Beyaz
+c 0.9 0.9 1.0  # Açık Mavi
+c 0.8 0.8 1.0  # Mavi
+c 0.7 0.7 1.0  # Orta Mavi
+c 0.6 0.6 1.0  # Açık Turkuaz
+c 0.5 0.5 1.0  # Turkuaz
+c 0.4 0.4 1.0  # Koyu Turkuaz
+c 0.3 0.3 1.0  # Lacivert
+
+# İndeksler
+f 0 1 2 3
+f 4 5 6 7
+f 0 3 7 4
+f 1 2 6 5
+f 0 1 5 4
+f 2 3 7 6

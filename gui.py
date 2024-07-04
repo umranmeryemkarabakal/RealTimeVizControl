@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'C:\Users\umk54\OneDrive\Masaüstü\TEKNOFEST\new_file\gui.ui'
+#
+# Created by: PyQt5 UI code generator 5.6
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1520, 930)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.horizontalLayoutWidget_2 = QtWidgets.QWidget(self.centralwidget)
+        self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(20, 30, 481, 101))
+        self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
+        self.hbox2 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_2)
+        self.hbox2.setContentsMargins(0, 0, 0, 0)
+        self.hbox2.setObjectName("hbox2")
+        self.comboBox = QtWidgets.QComboBox(self.horizontalLayoutWidget_2)
+        self.comboBox.setObjectName("comboBox")
+        self.hbox2.addWidget(self.comboBox)
+        self.buttonConnect = QtWidgets.QPushButton(self.horizontalLayoutWidget_2)
+        self.buttonConnect.setObjectName("buttonConnect")
+        self.hbox2.addWidget(self.buttonConnect)
+        self.buttonDisconnect = QtWidgets.QPushButton(self.horizontalLayoutWidget_2)
+        self.buttonDisconnect.setObjectName("buttonDisconnect")
+        self.hbox2.addWidget(self.buttonDisconnect)
+        self.horizontalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.horizontalLayoutWidget.setGeometry(QtCore.QRect(0, 140, 1511, 781))
+        self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
+        self.hbox = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
+        self.hbox.setContentsMargins(0, 0, 0, 0)
+        self.hbox.setObjectName("hbox")
+        self.vbox = QtWidgets.QVBoxLayout()
+        self.vbox.setObjectName("vbox")
+        self.hbox.addLayout(self.vbox)
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.hbox.addItem(spacerItem)
+        self.tabWidget = QtWidgets.QTabWidget(self.horizontalLayoutWidget)
+        self.tabWidget.setObjectName("tabWidget")
+        self.tab = QtWidgets.QWidget()
+        self.tab.setObjectName("tab")
+        self.tabWidget.addTab(self.tab, "")
+        self.tab_2 = QtWidgets.QWidget()
+        self.tab_2.setObjectName("tab_2")
+        self.tabWidget.addTab(self.tab_2, "")
+        self.tab_3 = QtWidgets.QWidget()
+        self.tab_3.setObjectName("tab_3")
+        self.tabWidget.addTab(self.tab_3, "")
+        self.hbox.addWidget(self.tabWidget)
+        self.hbox.setStretch(0, 55)
+        self.hbox.setStretch(1, 5)
+        self.hbox.setStretch(2, 40)
+        self.horizontalLayoutWidget_3 = QtWidgets.QWidget(self.centralwidget)
+        self.horizontalLayoutWidget_3.setGeometry(QtCore.QRect(830, 30, 601, 101))
+        self.horizontalLayoutWidget_3.setObjectName("horizontalLayoutWidget_3")
+        self.hbox3 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_3)
+        self.hbox3.setContentsMargins(0, 0, 0, 0)
+        self.hbox3.setObjectName("hbox3")
+        self.comboBox1 = QtWidgets.QComboBox(self.horizontalLayoutWidget_3)
+        self.comboBox1.setObjectName("comboBox1")
+        self.hbox3.addWidget(self.comboBox1)
+        self.connectButton = QtWidgets.QPushButton(self.horizontalLayoutWidget_3)
+        self.connectButton.setObjectName("connectButton")
+        self.hbox3.addWidget(self.connectButton)
+        self.disconnectButton = QtWidgets.QPushButton(self.horizontalLayoutWidget_3)
+        self.disconnectButton.setObjectName("disconnectButton")
+        self.hbox3.addWidget(self.disconnectButton)
+        self.sendButton = QtWidgets.QPushButton(self.horizontalLayoutWidget_3)
+        self.sendButton.setObjectName("sendButton")
+        self.hbox3.addWidget(self.sendButton)
+        MainWindow.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(MainWindow)
+        self.tabWidget.setCurrentIndex(2)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.buttonConnect.setText(_translate("MainWindow", "Connect"))
+        self.buttonDisconnect.setText(_translate("MainWindow", "Disconnect"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Tab 1"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Tab 2"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), _translate("MainWindow", "Page"))
+        self.connectButton.setText(_translate("MainWindow", "connect"))
+        self.disconnectButton.setText(_translate("MainWindow", "disconnect"))
+        self.sendButton.setText(_translate("MainWindow", "sendData"))
+
