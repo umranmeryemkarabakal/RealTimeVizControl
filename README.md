@@ -8,17 +8,17 @@
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 A real-time monitoring panel in PyQt5: it reads orientation data over serial, rotates a 3D model with OpenGL, plots the values live with pyqtgraph, shows the webcam feed and logs everything to CSV.
 
 **Quick start:** `pip install -r requirements.txt && python main.py`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 Seri porttan gelen açı verisiyle bir 3B modeli OpenGL üzerinde döndüren, değerleri pyqtgraph ile canlı çizen, kamera görüntüsünü gösteren ve verileri CSV'ye kaydeden PyQt5 izleme paneli.
 
-## ✨ Özellikler
+## Özellikler
 
 - `cubeObje.obj` modelini okuyup X/Y/Z eksenlerinde döndürme
 - Üç kanallı canlı grafik
@@ -26,7 +26,7 @@ Seri porttan gelen açı verisiyle bir 3B modeli OpenGL üzerinde döndüren, de
 - Tablo ve CSV kaydı
 - Seri porta veri gönderme
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 python -m venv .venv
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 RealTimeVizControl/
